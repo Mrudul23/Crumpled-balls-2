@@ -5,6 +5,9 @@ const Body = Matter.Body;
 
 var engine, world;
 
+function preload(){
+  back=loadImage("background.jpg")
+}
 
 function setup() {
 	createCanvas(1535, 530);
@@ -32,11 +35,12 @@ function setup() {
 
 
 function draw() {
+
   rectMode(CENTER);
 
  
 
-  background("yellow")
+  background(back)
  
   
   Engine.update(engine);
