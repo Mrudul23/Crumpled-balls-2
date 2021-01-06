@@ -16,13 +16,13 @@ function setup() {
 	engine = Engine.create();
 	world = engine.world;
 
-	paper = new Paper(100, 200, 80,80);
+	paper = new Paper(165, 200, 80,80);
 	
 
   ground = new Ground(768, 500, 2300, 55);
   
   
-  dustbin = new Dustbin(1335, 463, 222, 37);
+  dustbin = new Dustbin(1400, 463, 222, 37);
  
   wall1 = new Wall(1540,380,10,750)
   wall2 = new Wall(1150,-100,2300,10)
